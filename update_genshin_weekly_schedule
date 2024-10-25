@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades do Dia</title>
+
+    <!-- Importação da Fonte Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f4f4;
+            color: #555353; /* Cor do texto alterada */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+            font-size: 14px;
+        }
+        select, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-family: 'Montserrat', sans-serif;
+            color: #555353;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: normal;
+            text-align: center;
+            color: #555353;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; /* Torna a imagem redonda */
+            object-fit: cover; /* Ajusta a imagem ao círculo */
+            border: 3px solid #d3d3d3; /* Borda cinza clara */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Atividades do Dia (っ• ᴗ • )っ</h2>
+    <select id="diaDaSemana">
+        <option value="">Selecione um dia</option>
+        <option value="Segunda">Segunda</option>
+        <option value="Terça">Terça</option>
+        <option value="Quarta">Quarta</option>
+        <option value="Quinta">Quinta</option>
+        <option value="Sexta">Sexta</option>
+    </select>
+    <button onclick="mostrarAtividades()">Ver Atividades</button>
+    <div class="result" id="resultado"></div>
+</div>
+
+<script>
+    const atividades = {
+        'Segunda': `
+            <strong>Farmar Talentos da Mualani</strong><br>
+        <img src="https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/mualani/image.png?strip=all&quality=75&w=256" 
+            alt="Imagem de Mualani"><br><br>
+            <strong>Livro:</strong><br>
+            </strong>Local → Ruínas Flamejantes (Natlan)<br>
+            </strong>Raridade 2 ☆ Ensinamentos da Disputa<br>
+            </strong>Raridade 3 ☆ Guia da Disputa<br>
+            </strong>Raridade 4 ☆ Filosofia da Disputa<br><br>
+            <strong>Boss Semanal:</strong><br>
+            Baleia Devoradora<br>
+            Item → Massa Sem Luz<br><br>
+        `,
+        'Terça': 'Talentos Thoma e Boss Semanal',
+        'Quarta': 'Livre',
+        'Quinta': 'Talentos Mualani',
+        'Sexta': 'Livre'
+    };
+
+    function mostrarAtividades() {
+        const dia = document.getElementById('diaDaSemana').value;
+        const resultadoDiv = document.getElementById('resultado');
+
+        if (dia) {
+            resultadoDiv.innerHTML = `Atividades para ${dia}:<br>${atividades[dia]}`;
+        } else {
+            resultadoDiv.innerHTML = 'Por favor, selecione um dia da semana.';
+        }
+    }
+</script>
+
+</body>
+</html>
