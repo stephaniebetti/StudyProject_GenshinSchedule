@@ -12,4 +12,4 @@ Como um jogador dedicado de Genshin Impact, percebi que o processo de verificar 
 O objetivo do site é ser completamente descomplicado e intuitivo, permitindo que os usuários encontrem as informações que precisam de forma rápida e fácil.
 
 # Acesse o site pelo link abaixo: 
-[Visite o Cronograma Semanal de Genshin Impact](
+[Visite o Cronograma Semanal de Genshin Impact](https://stephaniebetti.github.io/StudyProject_GenshinSchedule/)
