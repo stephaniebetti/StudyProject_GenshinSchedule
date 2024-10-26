@@ -1,15 +1,15 @@
-# Descrição do Projeto
-O Cronograma Semanal de Genshin Impact foi desenvolvido para me ajudar a gerenciar minhas atividades diárias no jogo de forma mais eficiente. Cada personagem tem um dia específico em que seus itens ficam disponíveis para serem farmados (por exemplo, na quarta-feira, é o dia de farmar ascensão de talentos do personagem X). Para facilitar essa rotina, criei um site que permite consultar essas informações sem a necessidade de entrar no jogo.
+# Project Description
+The Weekly Schedule for Genshin Impact was developed to help me manage my daily activities in the game more efficiently. Each character has a specific day when their items become available for farming (for example, Wednesday is the day to farm talent ascension materials for character X). To simplify this routine, I created a website that allows me to check this information without needing to log into the game.
 
-Como um jogador dedicado de Genshin Impact, percebi que o processo de verificar quais personagens e itens requeriam minha atenção diária era tedioso. Eu frequentemente precisava logar, navegar por vários menus e clicar em diversos locais para descobrir quais itens eu deveria focar. Este projeto foi uma solução que não só me ajudou a organizar melhor meu tempo, mas também serviu como uma valiosa oportunidade de aprendizado em programação.
+As a dedicated Genshin Impact player, I realized that the process of checking which characters and items required my daily attention was tedious. I often had to log in, navigate through multiple menus, and click around to find out which items I should focus on. This project provided a solution that not only helped me organize my time better but also served as a valuable learning opportunity in programming.
 
-# Como Utilizar
-1. Selecione o dia da semana para o qual você deseja receber informações (ex: segunda-feira).
-2. Clique em "Ver Atividades".
-3. Confira na tela os personagens e os itens que precisam da sua atenção naquele dia.
+# How to Use
+1. Select the day of the week for which you want to receive information (e.g., Monday).
+2. Click on "View Activities."
+3. Check the screen for the characters and items that need your attention that day.
 
-# Considerações Finais
-O objetivo do site é ser completamente descomplicado e intuitivo, permitindo que os usuários encontrem as informações que precisam de forma rápida e fácil.
+# Final Considerations
+The goal of the website is to be completely straightforward and intuitive, allowing users to quickly and easily find the information they need.
 
-# Acesse o site pelo link abaixo: 
+# Access the site via the link below:
 [Visite o Cronograma Semanal de Genshin Impact](https://stephaniebetti.github.io/StudyProject_GenshinSchedule/)
